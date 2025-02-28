@@ -24,10 +24,12 @@ body {
     font-family: "Alice", serif;
     line-height: 150%;
     color: var(--text-color-secondary);
+    font-size: 1.6rem;
 
-    /* background-image: url(./assets/bg-image.png); */
+    background-image: url(./assets/bg-image.png);
+    background-color: var(--bg-color);
     background-size: cover;
-}
+}  
 
 h1 {
     font-size: 4rem;
@@ -40,11 +42,6 @@ h2 {
 
 h2, p, li {
     line-height: 150%;
-}
-
-p,
-li {
-    font-size: 1.6rem;
 }
 
 /* Main content */
@@ -64,4 +61,16 @@ img {
 
 section {
     padding: 2.4rem;
+}
+
+article ul {
+    padding-left: 2.4rem;
+}
+
+/* Footer */
+
+footer {
+    padding-bottom: 4.8rem;
+    text-align: center;
+    color: var(--text-color-on-bg);
 }
